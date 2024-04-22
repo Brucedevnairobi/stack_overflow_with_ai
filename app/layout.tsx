@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-// eslint-disable-next-line camelcase
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import React from "react";
@@ -22,9 +21,9 @@ export const metadata: Metadata = {
   title: "Stack Overflow",
   description:
     "A community driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers outside the world. Explore topics in web development, mobile app development, algorithms, data structures and more.",
-    icons: {
-      icon: './site-logo.svg',
-    }
+  icons: {
+    icon: "/assets/images/site-logo.svg",
+  },
 };
 
 export default function RootLayout({
