@@ -1,8 +1,8 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-@import url("../styles/theme.css");
+  @import url("../styles/theme.css");
 
 body {
   font-family: "Inter", sans-serif;
@@ -77,8 +77,8 @@ body {
 
 .primary-text-gradient {
   background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
-  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
